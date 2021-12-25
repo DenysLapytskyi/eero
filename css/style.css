@@ -18,6 +18,8 @@ p {
 ul,
 ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -50,9 +52,49 @@ body {
   margin: 0 auto;
 }
 
+.logo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 36px;
+}
+
+.logo > img {
+  max-height: 46px;
+}
+
 .nav {
   display: flex;
 }
 .nav-list {
   display: flex;
+  align-items: center;
+  margin-left: 195px;
+}
+
+.nav-item + .nav-item {
+  margin-left: 37px;
+}
+
+.nav-link {
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.10998px;
+  color: var(--primary-text-color);
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  padding: 0 64px;
+
+  font-family: inherit;
+
+  font-size: 14px;
+  line-height: 1.79;
+  letter-spacing: 0.10998px;
+  text-transform: uppercase;
+  color: var(--primary-background-color);
+  background-color: var(--btn-color);
 }
