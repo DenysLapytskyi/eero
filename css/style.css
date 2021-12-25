@@ -27,7 +27,7 @@ a {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -97,4 +97,53 @@ body {
   text-transform: uppercase;
   color: var(--primary-background-color);
   background-color: var(--btn-color);
+}
+
+/* --------------HERO------------------ */
+.hero {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* .hero-container {
+  display: flex;
+  flex-direction: column;
+} */
+
+.title {
+  font-size: 72px;
+  line-height: 1.11;
+  padding-top: 120px;
+  color: var(--primary-background-color);
+}
+
+.hero-text {
+  font-size: 21px;
+  line-height: 1.38;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  color: var(--primary-background-color);
+}
+
+.transparent-btn {
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  color: var(--primary-background-color);
+  background-color: tranparent;
+}
+
+.hero-btn {
+  display: inline-block;
+  margin-bottom: 87px;
+  border: 1px solid #ffffff;
+  /* margin: 0 auto; */
+  padding: 18px 37px;
+}
+
+.hero-image {
+  display: block;
+  margin: 0 auto;
 }
