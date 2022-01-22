@@ -201,4 +201,34 @@ body {
 
 .promo__title {
   margin-top: 116px;
+  padding-right: 355px;
+  padding-left: 356px;
+  margin-bottom: 44px;
+
+  font-size: 50px;
+  line-height: 1.2;
+
+  color: var(--primary-text-color);
 }
+
+.promo__text {
+  padding: 0 352px;
+  margin-bottom: 78px;
+  line-height: 1.4;
+
+  color: var(--primary-text-color);
+}
+
+.promo__link {
+  display: inline-block;
+  padding: 17px 37px 21px;
+
+  line-height: 1;
+  letter-spacing: 0.11px;
+}
+
+.promo__img {
+  display: block;
+  margin: 0 auto;
+}
+    <!-- Devices section -->
