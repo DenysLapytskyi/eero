@@ -27,7 +27,7 @@ a {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -105,10 +105,15 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* .hero-container {
-  display: flex;
-  flex-direction: column;
-} */
+.hero-container {
+  background-image: url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* display: flex;
+  flex-direction: column; */
+  position: relative;
+  padding-bottom: 277px;
+}
 
 .title {
   font-size: 72px;
@@ -146,4 +151,8 @@ body {
 .hero-image {
   display: block;
   margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
 }
