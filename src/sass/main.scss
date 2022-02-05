@@ -5,6 +5,7 @@
 
 // Стили для файла с примером HTML-фрагмента
 @import './example';
+@import './devices';
 
 :root {
   --primary-background-color: #ffffff;
@@ -238,19 +239,4 @@ body {
 .promo__img {
   display: block;
   margin: 0 auto;
-}
-/* <!-- Devices section --> */
-
-.devices {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: var(--primary-background-color);
-  padding-top: 580px;
-  padding-bottom: 80px;
-  padding-left: 188px;
-  padding-right: 70px;
-}
-
-.devices__list {
-  display: flex;
-  justify-content: space-between;
 }
