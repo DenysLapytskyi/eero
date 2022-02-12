@@ -1,121 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eero</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Eero</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-</head>
+  <body>
+    <header class="header">
+      <div class="promo-bar">
+        <p class="promo-bar-text">Free 2-day shipping | 30-day money back guarantee</p>
+      </div>
+      <div class="container">
+        <nav class="nav">
+          <a href="/" class="logo"><img src="./images/logo.svg" alt="logo" /></a>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">How it works</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">eero Secure</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Support</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Find your system</a>
+            </li>
+          </ul>
+          <a href="#" class="btn-link">Shop</a>
+        </nav>
+      </div>
+    </header>
 
-<body>
-  <header class="header">
-    <div class="promo-bar">
-      <p class="promo-bar-text">
-        Free 2-day shipping | 30-day money back guarantee
-      </p>
-    </div>
-    <div class="container">
-      <nav class="nav">
-        <a href="/" class="logo"><img src="./images/logo.svg" alt="logo" /></a>
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">How it works</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Technology</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">eero Secure</a>
-          </li>
-          <li class="nav-item"><a href="#" class="nav-link">Support</a></li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Find your system</a>
-          </li>
-        </ul>
-        <a href="#" class="btn-link">Shop</a>
-      </nav>
-    </div>
-  </header>
+    <!-- section hero -->
+    <section class="hero">
+      <div class="container hero-container">
+        <h1 class="title animate__animated animate__heartBeat wow">Wi-Fi 6 is here.</h1>
+        <p class="hero-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit similique explicabo
+          eaque accusamus? At illum aliquam perferendis aut, sit debitis quibusdam officia sint fuga
+          pariatur vel placeat omnis sapiente consequatur exercitationem ipsa magnam? Voluptatem eum
+          ad fugiat numquam soluta. Voluptates.
+        </p>
+        <a href="" class="transparent-btn hero-btn">Lorem, ipsum dolor.</a>
+        <img src="./images/hero-wifi-router.png" alt="wifi router" class="hero-image" />
+      </div>
+    </section>
 
-  <!-- section hero -->
-  <section class="hero">
-    <div class="container hero-container">
-      <h1 class="title animate__animated animate__heartBeat wow">
-        Wi-Fi 6 is here.
-      </h1>
-      <p class="hero-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit similique explicabo eaque accusamus? At illum aliquam perferendis aut, sit debitis quibusdam officia sint fuga pariatur vel placeat omnis sapiente consequatur exercitationem ipsa magnam? Voluptatem eum ad fugiat numquam soluta. Voluptates.</p>
-      <a href="" class="transparent-btn hero-btn">Lorem, ipsum dolor.</a>
-      <img src="./images/hero-wifi-router.png" alt="wifi router" class="hero-image" />
-    </div>
-  </section>
-
-  <!--Promo section-->
-  <section class="promo">
-    <div class="container">
-      <div class="shop-amazon">
-        <p class="shop-amazon__text">Explore eero systems on</p>
-        <a class="shop-amazon__link" href="#">
-          <img src="./images/amazon-logo.svg" alt="amazon-logo" />
-          <span> Shop now </span>
+    <!--Promo section-->
+    <section class="promo">
+      <div class="container">
+        <div class="shop-amazon">
+          <p class="shop-amazon__text">Explore eero systems on</p>
+          <a class="shop-amazon__link" href="#">
+            <img src="./images/amazon-logo.svg" alt="amazon-logo" />
+            <span> Shop now </span>
+          </a>
+        </div>
+        <h2 class="promo__title animate__animated animate__flip wow">
+          More wifi for the devices in your connected home.
+        </h2>
+        <p class="promo__text">
+          eero 6 systems use the power of Wi-Fi 6 to deliver faster speeds, increase your internet’s
+          efficiency, and reduce network congestion. Say goodbye to dead spots and buffering with a
+          connection that doesn’t slow you down, even as you add more devices.
+        </p>
+        <a class="promo__link btn-link" href="#"> Find your eero system </a>
+        <img class="promo__img" src="./images/home-devices.png" alt="people use devices" />
+      </div>
+    </section>
+    <include src="./partials/devices.html"></include>
+    <!-- Section artikle -->
+    <section style="background: #404040">
+      <div class="container">
+        <p>
+          “eero combats frustrating Wi-Fi dead zones with an armada of little wireless routers.”
+        </p>
+        <a class="animate__animated animate__jackInTheBox wow" href="#">
+          <img src="./images/journal.svg" alt="Wall streeat journal" />
         </a>
       </div>
-      <h2 class="promo__title animate__animated animate__flip wow">
-        More wifi for the devices in your connected home.
-      </h2>
-      <p class="promo__text">
-        eero 6 systems use the power of Wi-Fi 6 to deliver faster speeds,
-        increase your internet’s efficiency, and reduce network congestion.
-        Say goodbye to dead spots and buffering with a connection that doesn’t
-        slow you down, even as you add more devices.
-      </p>
-      <a class="promo__link btn-link" href="#"> Find your eero system </a>
-      <img class="promo__img" src="./images/home-devices.png" alt="people use devices" />
-    </div>
-  </section>
-  <include src="./partials/devices.html"></include>
-  <!-- Section artikle -->
-  <section style="background: #404040">
-    <p>
-      “eero combats frustrating Wi-Fi dead zones with an armada of little
-      wireless routers.”
-    </p>
-    <a class="animate__animated animate__jackInTheBox wow" href="#">
-      <img src="./images/journal.svg" alt="Wall streeat journal" />
-    </a>
-  </section>
-  <!-- slider -->
-  <include src="./partials/slider.html"></include>
-  <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-  <include src="./partials/example.html"></include>
+    </section>
+    <!-- slider -->
+    <include src="./partials/slider.html"></include>
+    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+    <include src="./partials/example.html"></include>
 
-  <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <!-- <script type="text/javascript" src="./js/slick.min.js"></script> -->
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="./index.js"></script>
-  <script>
-    $('.slider').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear'
-  });
-</script>
-  <!-- <script src="./js/wow.min.js"></script> -->
-  <!-- <script>
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- <script type="text/javascript" src="./js/slick.min.js"></script> -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./index.js"></script>
+    <script>
+      $('.slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+      });
+    </script>
+    <!-- <script src="./js/wow.min.js"></script> -->
+    <!-- <script>
     new WOW().init();
   </script> -->
-</body>
-
+  </body>
 </html>
